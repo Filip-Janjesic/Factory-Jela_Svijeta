@@ -2,6 +2,7 @@ drop database if exists Jela_svijeta;
 create database Jela_svijeta default character set utf8mb4;
 use Jela_svijeta;
 
+
 create table jelo(
 
 	sifra int not null primary key auto_increment,
@@ -15,3 +16,42 @@ create table jelo(
 	kategorija int null
 
 );
+
+
+create table sastojak(
+
+	sifra int not null primary key auto_increment,
+	nazivSastojak varchar(50) not null,
+	NazivSastojak_en varchar(50) not null,
+	slug varchar(50) not null
+
+);
+
+
+create table jelo_sastojak(
+
+	jelo int not null,
+	sastojak int not null
+	
+);
+
+
+create table kategorija(
+
+	sifra int not null primary key auto_increment,
+	nazivKategorija varchar(50) not null,
+	nazivKategorija_en varchar(50) not null,
+	slug varchar(50) not null
+
+);
+
+
+create table tag(
+
+	sifra int not null primary key auto_increment,
+	nazivTag varchar(50) not null,
+	nazivTag_en varchar(50) not null,
+	slug varchar(50) not null
+
+);
+
