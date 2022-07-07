@@ -16,15 +16,15 @@ include 'lang/' . $_SESSION['lang'] . '.php';
 $putanja = "/Jela_svijeta/";
 $naslov = "Jela svijeta";
 
-if($_SERVER["HTTP_HOST"]==="http://jela-svijeta.epizy.com/"){
+if($_SERVER["HTTP_HOST"]==="jela-svijeta.epizy.com"){
 	$host="sql212.epizy.com";
 	$dbname="epiz_32116458_Jela_svijeta";
 	$dbuser="epiz_32116458";
 	$dbpass="zGMPsVbhvDc2i";
 }else{
-	$host="localhost";
-	$dbname="Jela_svijeta";
-	$dbuser="root";
+	$host="";
+	$dbname="";
+	$dbuser="";
 	$dbpass="";
 	}
 
@@ -46,4 +46,3 @@ try{
 			break;
 	}
 }
-
