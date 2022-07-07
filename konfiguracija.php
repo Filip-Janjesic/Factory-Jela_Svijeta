@@ -13,7 +13,7 @@ if (isset($_GET['lang']) === true && in_array($_GET['lang'],$allowed_lang) === t
 
 include 'lang/' . $_SESSION['lang'] . '.php';
 
-$putanja = "/Jela/";
+$putanja = "/Jela_svijeta/";
 $naslov = "Jela svijeta";
 
 if($_SERVER["HTTP_HOST"]==="jela-svijeta.epizy.com"){
