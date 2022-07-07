@@ -24,6 +24,6 @@
 			<div class="clearfix"> </div>
 					
 			</div>
-			<p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2022. Filip Janješić - Jela svijeta. <?php echo $lang['design'];?> </p>
+			<p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2022. <a href="https://github.com/Filip-Janjesic/Factory-Jela_Svijeta"> Filip Janješić - Jela svijeta. </a>  </p>
 		</div>
 	</div>		
