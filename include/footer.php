@@ -25,6 +25,6 @@
 			<div class="clearfix"> </div>
 					
 			</div>
-			<p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2018. Plava Tvornica - Jela svijeta. Andi Bašić. <?php echo $lang['design'];?> <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<p class="footer-class animated wow bounce" data-wow-duration="1000ms" data-wow-delay="500ms">&copy; 2022. Plava Tvornica - Jela svijeta. Filip Janješić. <?php echo $lang['design'];?> <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		</div>
 	</div>		
