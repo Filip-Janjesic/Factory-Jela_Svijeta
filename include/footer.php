@@ -5,7 +5,6 @@
 					<ul class=" in">
 						<li><a href="index.php"><?php echo $lang['home'];?></a></li>
 						<li><a  href="menu.php"><?php echo $lang['menu'];?></a></li>
-						<li><a  href="contact.php"><?php echo $lang['contact'];?></a></li>
 					</ul>					
 						<span><?php echo $lang['variation1'];?></span>
 				</div>
